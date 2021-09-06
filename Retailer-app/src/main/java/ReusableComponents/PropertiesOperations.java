@@ -5,7 +5,9 @@ import java.util.Properties;
 
 import org.apache.commons.lang.StringUtils;
 
-public class PropertiesOperations {
+import TestBase.TestBase;
+
+public class PropertiesOperations extends TestBase {
 
 	public static String getPropertyValueByKey(String key) throws Exception {
 
